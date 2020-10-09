@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash2"
+    tools:context=".DriverRegLoginActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/TitleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_TitleTV"
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TitleTV">
+
+        <LinearLayout
+            android:id="@+id/driverSignInLL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/driverEmailET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="20dp"
+                android:hint="@string/text_driverEmailET"
+                android:textSize="20sp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/driverPasswordET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_marginTop="20dp"
+                android:hint="@string/text_driverPasswordET"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/driverSignInBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_driverSignInBT"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white1"
+                android:textSize="20sp"
+                android:background="@color/green1"/>
+
+            <TextView
+                android:id="@+id/DontHaveAccountTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_DontHaveAccountTV"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/driverSignUpBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_driverSignUpBT"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white1"
+                android:textSize="20sp"
+                android:background="@color/orange1"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

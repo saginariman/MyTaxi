@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyTaxi</string>
+    <string name="avtor_name">Created by <b>Sagiden Nariman</b></string>
+    <string name="text_driverButton">Я Водитель!</string>
+    <string name="text_customerButton">Я Клиент!</string>
+    <string name="text_TitleTV">Вход для водителей</string>
+    <string name="text_CustomerTitleTV">Вход для клиентов</string>
+    <string name="text_driverEmailET">abc@gmail.com</string>
+    <string name="text_driverPasswordET">Пароль</string>
+    <string name="text_driverSignInBT">Войти</string>
+    <string name="text_driverSignUpBT">Зарегистрироваться</string>
+    <string name="text_DontHaveAccountTV">Еще нет аккаунта?</string>
+    <string name="title_activity_drivers_map">Map</string>
+    <string name="title_activity_customers_map">Map</string>
+
+</resources>
